@@ -27,3 +27,37 @@ input[type="submit"] {
 	top:-3px;
 	position:relative;
 }
+
+
+.resultsPage input {
+	float:left;
+	font-size:18pt;
+}
+
+.resultsPage #searchForm {
+	margin:32px !important;
+	position:relative;
+	top:20px;
+	left:50px;
+}
+
+.resultsPage #logo {
+	float: left;
+}
+
+.resultsPage input[type="submit"] {
+	font-size: 15pt;
+}
+
+ul.horizontal,
+ul.horizontal li {
+	list-style:none;
+	display:inline;
+	padding:5px 15px 5px 5px;
+}
+
+ul.horizontal {
+	display:block;
+}
+ul.horizontal li {
+}
