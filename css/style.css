@@ -43,6 +43,7 @@ input[type="submit"] {
 
 .resultsPage #logo {
 	float: left;
+	max-width:123px;
 }
 
 .resultsPage input[type="submit"] {
@@ -60,4 +61,139 @@ ul.horizontal {
 	display:block;
 }
 ul.horizontal li {
+}
+
+#tryThese {
+	position:relative;
+	top:250px;
+	margin-bottom:500px;
+}
+
+
+html {
+	font-size: 10px;
+}
+
+body {
+	background: #fff;
+	font-family: 'Corben', Helvetica, "Helvetica Neue", Arial, sans-serif;
+	font-size: 24px;
+	font-size: 2.4rem;
+	line-height: 1.4;
+}
+
+
+.background {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: -moz-radial-gradient(50% 50%, farthest-side, #fff, #efefef);
+	background: -webkit-gradient(radial, 50% 50%, 250, 50% 50%, 750, from(#fff), to(#bbb));
+	z-index: 0;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+h1 {
+	font-size: 60px;
+	font-size: 6rem;
+	padding: 0;
+}
+
+h2 {
+	font-size: 48px;
+	font-size: 4.8rem;
+}
+
+p, li {
+	font-weight: 400;
+	font-size: 36px;
+	font-size: 3.6rem;
+}
+
+a, a:visited {
+	font-weight: 400;
+	font-style: italic;
+	color: #666;
+	padding-right: 3px;
+	padding-right: .3rem;
+}
+
+li {
+	padding: 4px 0;
+	padding: .4rem 0;
+}
+
+img {
+	width: 100%;
+}
+
+/*----------------------------------------  HEADER  */
+
+#header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	background: #ccc;
+	border-bottom: solid 3px #bbb;
+	opacity: .3;
+}
+
+#header:hover {
+	opacity: .5;
+}
+
+#header h1 {
+	margin: 0;
+	padding: 7px 20px 10px;
+	padding: .7rem 2rem 1rem;
+	font-size: 16px;
+	font-size: 1.6rem;
+	color: #888;
+	font-weight: normal;
+}
+
+#nav {
+	position: absolute;
+	top: 0;
+	right: 20px;
+	right: 2rem;
+}
+
+.nav-button {
+	float: left;
+	padding: 10px;
+	padding: 1rem;
+	text-decoration: none;
+	color: #888;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-style: normal;
+}
+
+.current, a.nav-button:hover {
+	color: #333;
+}
+
+/*------------------------  SLIDES  */
+
+.slide {
+	position: relative;
+	margin: 0;
+	width: 100%;
+	height: 500px;
+	height: 50rem;
+	padding: 100px 0 200px;
+	padding: 10rem 0 20rem;
+	text-align: center;
+}
+
+
+.slide.what .what-block p{
+	font-size: 20pt !important;
 }
