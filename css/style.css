@@ -197,3 +197,10 @@ img {
 .slide.what .what-block p{
 	font-size: 20pt !important;
 }
+
+.slide p {
+	font-size:1.123em;
+	text-align:center;
+	margin:auto;
+	padding:0 5em;
+}
