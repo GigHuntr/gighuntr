@@ -12,6 +12,9 @@ input {
 	margin-bottom:77px;
 }
 
+input[type="text"] {
+}
+
 input[type="submit"] {
 	color: #E4C51F;
 	background-color: none;
@@ -19,4 +22,8 @@ input[type="submit"] {
 	border-top-right-radius: 15pt;
 	border-bottom-right-radius: 15pt;
 	padding-right: 7.5pt;
+	font-size: 15pt;
+	line-height: 22pt;
+	top:-3px;
+	position:relative;
 }
