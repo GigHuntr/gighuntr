@@ -212,5 +212,20 @@ img {
 	font-size:1.123em;
 	text-align:center;
 	margin:auto;
-	padding:0 5em;
 }
+
+.slide.about p {
+	margin-bottom: 12pt;
+}
+
+
+/* Columns: */
+
+.two-column {
+	float:left;
+	width:35%;
+	padding-left:15%;
+	margin-right:-15%;
+	text-align: left;
+}
+
