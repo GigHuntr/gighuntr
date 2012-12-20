@@ -44,10 +44,14 @@ input[type="submit"] {
 .resultsPage #logo {
 	float: left;
 	max-width:123px;
+	margin-top: -50px;
 }
 
 .resultsPage input[type="submit"] {
 	font-size: 15pt;
+	position: relative;
+	top: 1px;
+	left: 4px;
 }
 
 ul.horizontal,
@@ -88,11 +92,6 @@ float: left;
 
 };
 
-.resultsPage h1 
-{
-float: left;
-
-}
 
 .background {
 	position: fixed;
@@ -112,6 +111,7 @@ h1 {
 	font-size: 60px;
 	font-size: 6rem;
 	padding: 0;
+	float: left !important;
 }
 
 h2 {
