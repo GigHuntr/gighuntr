@@ -235,3 +235,22 @@ img {
 .gsc-control-cse.gsc-control-cse-en {
 	text-align: left;
 }
+
+input.gsc-search-button {
+	border-radius: 0 20px 20px 0 !important;
+	padding-left: -5px !important;
+}
+.gsc-search-box input {
+	font-size: 20pt !important;
+	line-height: 20pt !important;
+	height: 20pt !important;
+}
+.gsc-search-box input.gsc-search-button {
+	padding-top:3px !important;
+	padding-bottom:3px !important;
+	background-color:black !important;
+	color:gold;
+	width:110px !important;
+	height:30px !important;
+}
+

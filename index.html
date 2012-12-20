@@ -1,10 +1,10 @@
 <!doctype html>
 <html>
   <head>
-    <meta charset=utf-8>
-    <meta name="description" content="">
+    <meta charset="utf-8">
+    <meta name="description" content="Find a job the smart way: search multiples job listing sources at the same time.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>GigHuntr - Where you can find a job or freelance gig.</title>
+    <title>GigHuntr - Find a job or freelance gig.</title>
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
@@ -26,7 +26,7 @@
         gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
             '//www.google.com/cse/cse.js?cx=' + cx;
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
-        $("form.gsc-search-box").attr("action", "results.html");
+    
       })();
     </script>
   </head>
@@ -44,18 +44,10 @@
 
       <!-- Google Custom Search input field. -->
  <div id="searchForm">
-<form action="results.html" id="cse-search-box">
- 
-    <input type="hidden" name="cx" value="partner-pub-6505124036046844:2081592662" />
-    <input type="hidden" name="cof" value="FORID:10" />
-    <input type="hidden" name="ie" value="UTF-8" />
-    <input type="text" name="q" placeholder="JobType &amp;/or Location..." size="55" />
-    <input type="submit" name="sa" value="Find" />
-  
-</form>
+
 
 <!-- Place this tag where you want the search box to render -->
-<gcse:searchbox-only></gcse:searchbox-only>
+<gcse:searchbox-only gname="gighuntr1" resultsUrl="./results.html" enableAutoComplete="true"></gcse:searchbox-only>
 </div>
     </div>
 
@@ -106,12 +98,14 @@
 
     <script>
       $(document).ready(function() {
-        
         var deck = new $.scrolldeck({
           buttons: '.nav-button',
           easing: 'easeInOutExpo'
         });
       });
+      $(document).ready(function() {
+        $(".gsc-search-button")[0].attr("value", "Find");
+      })
     </script>
     <script src="js/main.js"></script>
     <script type="text/javascript">
