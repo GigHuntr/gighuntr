@@ -87,6 +87,12 @@ body {
 float: left;
 };
 
+.resultsPage h1 
+{
+float: left;
+display: block;
+
+}
 .background {
 	position: fixed;
 	height: 100%;
