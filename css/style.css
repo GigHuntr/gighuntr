@@ -3,7 +3,6 @@ body {
 	font-size:20pt;
 	font-family: "Baskerville";
 	font-weight: lighter;
-
 }
 
 input {
@@ -150,9 +149,9 @@ img {
 	top: 0;
 	left: 0;
 	z-index: 10;
-	background: #ccc;
+	background: #757E44;
 	border-bottom: solid 3px #bbb;
-	opacity: .3;
+	opacity: .42;
 }
 
 #header:hover {
@@ -181,14 +180,14 @@ img {
 	padding: 10px;
 	padding: 1rem;
 	text-decoration: none;
-	color: #888;
+	color: #05458F;
 	font-size: 16px;
 	font-size: 1.6rem;
 	font-style: normal;
 }
 
 .current, a.nav-button:hover {
-	color: #333;
+	color: #021F40;
 }
 
 /*------------------------  SLIDES  */
