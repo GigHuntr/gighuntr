@@ -123,8 +123,8 @@
 				if ((e.keyCode == 37 || e.keyCode == 38) && currIndex !== 0) {
 					scrollToSlide(getPrevScrollpoint());
 				}
-				// down/right arrow, space = scroll down
-				else if ((e.keyCode == 39 || e.keyCode == 32 || e.keyCode == 40) && currIndex != slides.length-1) {
+				// down/right arrow, [space = scroll down e.keyCode == 32]
+				else if ((e.keyCode == 39 || e.keyCode == 40) && currIndex != slides.length-1) {
 					scrollToSlide(getNextScrollpoint());
 				}
 			});
