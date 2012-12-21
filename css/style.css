@@ -258,3 +258,19 @@ td#gsc-input
     font-size:14pt;
     line-height:26pt;
 }
+
+
+.gsc-clear-button {
+    display:none;
+}
+
+.topMobileBannerAd {
+    width:100%;
+    max-width:777px;
+    min-width:300px;
+    float:left;
+}
+
+.topMobileBannerAd ins {
+    margin:auto;
+}
