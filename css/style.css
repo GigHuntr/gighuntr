@@ -244,6 +244,9 @@ input.gsc-search-button {
 	font-size: 20pt !important;
 	line-height: 20pt !important;
 	height: 20pt !important;
+	width: 80% !important;
+	margin: auto !important;
+	
 }
 .gsc-search-box input.gsc-search-button {
 	padding-top:3px !important;
@@ -251,6 +254,6 @@ input.gsc-search-button {
 	background-color:black !important;
 	color:gold;
 	width:110px !important;
-	height:30px !important;
+	height:40px !important;
 }
 
