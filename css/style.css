@@ -222,6 +222,11 @@ input.gsc-search-button {
 	margin: auto !important;
 	width: 80% !important;
 }
+td#gsc-input 
+{
+	width: 80% !important;
+}
+
 .gsc-search-box input.gsc-search-button {
 	padding-top:3px !important;
 	padding-bottom:3px !important;
