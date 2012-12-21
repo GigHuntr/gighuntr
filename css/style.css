@@ -216,7 +216,7 @@ td#gsc-input
 	width:110px !important;
 	height:40px !important;
 }
-.gsc-search-box {
+.gsc-control-searchbox-only {
     width: 80% !important;
     min-width: 300px;
     margin: auto;
