@@ -14,24 +14,8 @@ input {
 input[type="text"] {
 }
 
-input[type="submit"] {
-	color: #E4C51F;
-	background-color: none;
-	background: Black;
-	border-top-right-radius: 15pt;
-	border-bottom-right-radius: 15pt;
-	padding-right: 7.5pt;
-	font-size: 15pt;
-	line-height: 22pt;
-	top:-3px;
-	position:relative;
-}
 
 
-.resultsPage input {
-	float:left;
-	font-size:18pt;
-}
 
 .resultsPage #searchForm {
 	margin:32px !important;
@@ -44,13 +28,6 @@ input[type="submit"] {
 	float: left;
 	max-width:123px;
 	margin-top: -50px;
-}
-
-.resultsPage input[type="submit"] {
-	font-size: 15pt;
-	position: relative;
-	top: 1px;
-	left: 4px;
 }
 
 ul.horizontal,
@@ -87,9 +64,8 @@ body {
 
 #top 
 {
-float: left;
-
-};
+	float: left;
+}
 
 
 .background {
@@ -242,11 +218,8 @@ input.gsc-search-button {
 }
 .gsc-search-box input {
 	font-size: 20pt !important;
-	line-height: 20pt !important;
 	height: 20pt !important;
-	width: 80% !important;
 	margin: auto !important;
-	
 }
 .gsc-search-box input.gsc-search-button {
 	padding-top:3px !important;
@@ -257,3 +230,14 @@ input.gsc-search-button {
 	height:40px !important;
 }
 
+.resultsPage .gsc-search-box {
+	float:left !important;
+	width:auto !important;
+	margin-left:30px;
+	margin-right:20px;
+	clear:both !important;
+	margin-top:-50px;
+}
+.resultsPage .gsc-search-box input {
+	margin:none !important;
+}
