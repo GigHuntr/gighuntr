@@ -269,6 +269,8 @@ td#gsc-input
     max-width:777px;
     min-width:300px;
     float:left;
+    clear:both;
+    height:75px;
 }
 
 .topMobileBannerAd ins {
