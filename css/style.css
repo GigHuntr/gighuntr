@@ -16,9 +16,8 @@ input {
 
 .resultsPage #logo {
 	float: left;
-    position:relative;
-    top:-55px;
 	max-width:123px;
+    font-size:1px;
 }
 
 ul.horizontal,
@@ -221,10 +220,15 @@ td#gsc-input
     min-width: 300px;
     margin: auto;
 }
-.resultsPage .gsc-search-box {
-	float:left !important;
-
+.resultsPage .gsc-control-searchbox-only {
+    float:left !important;
+    width: 100% !important;
+    min-width: 300px;
+    max-width:700px;
+    margin: 10px auto 15px 7px !important;
+    text-align:left;
 }
+
 .resultsPage .gsc-search-box input {
 	margin:none !important;
 }
