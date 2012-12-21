@@ -264,7 +264,7 @@ td#gsc-input
     display:none;
 }
 
-.topMobileBannerAd {
+#topMobileBannerAd {
     width:100%;
     max-width:777px;
     min-width:300px;
