@@ -220,6 +220,7 @@ input.gsc-search-button {
 	font-size: 20pt !important;
 	height: 20pt !important;
 	margin: auto !important;
+	width: 80% !important;
 }
 .gsc-search-box input.gsc-search-button {
 	padding-top:3px !important;
