@@ -8,26 +8,17 @@ body {
 input {
 	font-size:22pt;
 	border: 2px solid black;
-	margin-bottom:77px;
-}
-
-input[type="text"] {
 }
 
 
 
 
-.resultsPage #searchForm {
-	margin:32px !important;
-	position:relative;
-	top:20px;
-	left:50px;
-}
 
 .resultsPage #logo {
 	float: left;
+    position:relative;
+    top:-55px;
 	max-width:123px;
-	margin-top: -50px;
 }
 
 ul.horizontal,
@@ -42,13 +33,6 @@ ul.horizontal {
 }
 ul.horizontal li {
 }
-
-#tryThese {
-	position:relative;
-	top:250px;
-	margin-bottom:500px;
-}
-
 
 html {
 	font-size: 10px;
@@ -185,7 +169,7 @@ img {
 }
 
 .slide p {
-	font-size:1.123em;
+	font-size:1.9rem;
 	text-align:center;
 	margin:auto;
 }
@@ -218,9 +202,6 @@ input.gsc-search-button {
 }
 .gsc-search-box input {
 	font-size: 20pt !important;
-	height: 20pt !important;
-	margin: auto !important;
-	width: 80% !important;
 }
 td#gsc-input 
 {
@@ -235,14 +216,14 @@ td#gsc-input
 	width:110px !important;
 	height:40px !important;
 }
-
+.gsc-search-box {
+    width: 80% !important;
+    min-width: 300px;
+    margin: auto;
+}
 .resultsPage .gsc-search-box {
 	float:left !important;
-	width:auto !important;
-	margin-left:30px;
-	margin-right:20px;
-	clear:both !important;
-	margin-top:-50px;
+
 }
 .resultsPage .gsc-search-box input {
 	margin:none !important;
