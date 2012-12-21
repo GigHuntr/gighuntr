@@ -245,6 +245,11 @@ td#gsc-input
     text-align:left;
 }
 
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+    font-size: 14pt;
+    padding: 3px;
+}
+
 .resultsPage .gsc-search-box input {
 	margin:none !important;
 }
