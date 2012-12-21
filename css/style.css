@@ -253,3 +253,8 @@ td#gsc-input
 .resultsPage .gsc-search-box input {
 	margin:none !important;
 }
+
+.gsc-tabHeader {
+    font-size:14pt;
+    line-height:26pt;
+}
