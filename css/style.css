@@ -227,7 +227,7 @@ td#gsc-input
 	padding-top:3px !important;
 	padding-bottom:3px !important;
 	background-color:black !important;
-	color:gold;
+	color: #E4C51F;
 	height:40px !important;
     text-align: left;
 }
@@ -270,7 +270,6 @@ td#gsc-input
     min-width:300px;
     float:left;
     clear:both;
-    height:75px;
 }
 
 .topMobileBannerAd ins {
