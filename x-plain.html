@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Find a job the smart way: search multiples job listing sources at the same time.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GigHuntr - Find a job or freelance gig.</title>
+    <link rel="shortcut icon" href="image/favicon.ico" />
+    
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="author" href="humans.txt">
+
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    <script src="js/vendor/jquery-1.8.2.min.js"></script>
+    <script src="js/vendor/jquery.scrollTo-1.4.3.1.min.js"></script>
+    <script src="js/vendor/jquery.easing.1.3.js"></script>
+    <script src="js/vendor/jquery.scrollorama.js"></script>
+    <script src="js/vendor/jquery.scrolldeck.js"></script>
+    <meta name="google-site-verification" content="g2Cthj7V-pDs9_XGsFM7y7PPyK7jVE4FSkd8m0EsHnA" />
+    <!-- Google Custom Search setup. -->
+    <script>
+      (function() {
+        var cx = 'partner-pub-6505124036046844:2081592662';
+        var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+            '//www.google.com/cse/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+    
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="header">
+      <h1>&nbsp;</h1>
+        <div id="nav">
+          <a href="#home1" class="nav-button">Home</span></a>
+          <a href="#about1" class="nav-button">About</a>
+          <a href="#info1" class="nav-button">Info</span></a>
+        </div>
+    </div>
+    <div class="slide home" id="home1">
+      <img id="logo" alt="GigHuntr" src="image/GigHuntr-Logo-plain.png" style="width:100%;max-width:500px;"/>
+
+      <!-- Google Custom Search input field. -->
+ <div id="searchForm">
+
+
+<!-- Place this tag where you want the search box to render -->
+<gcse:searchbox-only gname="gighuntr1" resultsUrl="./results.html" enableAutoComplete="true"></gcse:searchbox-only>
+</div>
+    </div>
+
+    <div class="slide about" id="about1">
+      <h2>About</h2>
+      <p>
+        When you need to find a job; use GigHuntr. Get a job faster by eliminating time wasted looking at countless different sources. GigHuntr is your first place to find jobs and get jobs, even freelance gigs!
+      </p>
+      <p>
+        Search multiple job listing sites (Dice, Monster, Craigslist, etc.) in one step. Whether you're a Doctor, Lawyer, System Administrator, or Software Engineer; You'll save time and energy just by finding your next gig with GigHuntr.
+      </p>
+    </div>
+
+    <div class="slide how" id="info1">
+      <h2>Info</h2>
+      <p>You can search by the job description/title/category and/or by location.</p>
+      <h4>Try these searches:<h4>
+        <div class="two-column column-1">
+      <div class="info-block" data-animation="fly-in-left">
+        <a href="results.html?q=Linux Sysadmin">Linux Sysadmin</a>
+      </div>
+      <div class="info-block" data-animation="fly-in-right">
+        <a href="results.html?q=LAMP Developer TX">LAMP Developer TX</a>
+      </div>
+      <div class="info-block" data-animation="fly-in-left">
+        <a href="results.html?q=Graphics Design Chicago">Graphics Design Chicago</a>
+      </div>
+      <div class="info-block" data-animation="fly-in-left">
+        <a href="results.html?q=Florida Contracts">Florida Contracts</a>
+      </div>
+    </div>
+    <div class="two-column column-2">
+      <div class="info-block" data-animation="fly-in-right">
+        <a href="results.html?q=Nursing Assistant">Nursing Assistant</a>
+      </div>
+      <div class="info-block" data-animation="fly-in-right">
+        <a href="results.html?q=NYC+Illustrator">NYC Illustrator</a>
+      </div>
+      <div class="info-block" data-animation="fly-in-left">
+        <a href="results.html?q=San Francisco, CA Senior PHP">San Francisco, CA Senior PHP</a>
+      </div>
+      <div class="info-block" data-animation="fly-in-right">
+        <a href="results.html?q=Chicago Writer">Chicago Writer</a>
+      </div>
+    </div>
+    </div>
+
+
+    <script>
+      $(document).ready(function() {
+        var deck = new $.scrolldeck({
+          buttons: '.nav-button',
+          easing: 'easeInOutExpo'
+        });
+      });
+      $(document).ready(function() {
+        $(".gsc-search-button").on("ready", function() {
+            $(".gsc-search-button").attr("value", "Find");
+        });
+      });
+    </script>
+    <script src="js/main.js"></script>
+    <!-- Start of Woopra Code -->
+<script type="text/javascript">
+function woopraReady(tracker) {
+    tracker.setDomain('gighuntr.com');
+    tracker.setIdleTimeout(300000);
+    tracker.trackPageview({type:'pageview',url:window.location.pathname+window.location.search,title:document.title});
+    return false;
+}
+(function() {
+    var wsc = document.createElement('script');
+    wsc.src = document.location.protocol+'//static.woopra.com/js/woopra.js';
+    wsc.type = 'text/javascript';
+    wsc.async = true;
+    var ssc = document.getElementsByTagName('script')[0];
+    ssc.parentNode.insertBefore(wsc, ssc);
+})();
+</script>
+<!-- End of Woopra Code -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37121564-1']);
+  _gaq.push(['_setDomainName', 'gighuntr.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>
+
