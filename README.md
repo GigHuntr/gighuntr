@@ -34,8 +34,12 @@ See the lists below of examples of the URLs being used, and those which are not 
     * AuthenticJobs: authenticjobs.com/jobs
     * Experience.com: *.experience.com/alumnus/public_job_profile?job_hnd=*
     * RecruiterBox: *.recruiterbox.com/jobs/*
+    * Reddit>forhire: *.reddit.com/r/forhire/comments/*/hiring_*
     
 ## Non-working URLs (see notes):
     * Indeed: *.indeed.com/rc/clk?jk=* (not indexed)
     * Indeed: *.indeed.com/cmp/*/jobs/* (not indexed)
     * 
+    
+## Negated URLs:
+    * recruiterbox.com/jobs/?p=
