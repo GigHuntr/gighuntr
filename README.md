@@ -32,7 +32,8 @@ See the lists below of examples of the URLs being used, and those which are not 
     * Monster: jobview.monster.com/*
     * Startuply: startuply.com/Jobs
     * AuthenticJobs: authenticjobs.com/jobs
-    * 
+    * Experience.com: *.experience.com/alumnus/public_job_profile?job_hnd=*
+    * RecruiterBox: *.recruiterbox.com/jobs/*
     
 ## Non-working URLs (see notes):
     * Indeed: *.indeed.com/rc/clk?jk=* (not indexed)
