@@ -275,3 +275,7 @@ td#gsc-input
 .topMobileBannerAd ins {
     margin:auto;
 }
+
+.gs-per-result-labels:first-child {
+    content: "From: ";
+}
