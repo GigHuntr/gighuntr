@@ -10,7 +10,9 @@ input {
 	border: 2px solid black;
 }
 
-
+p#slogan {
+    margin:10pt;
+}
 
 
 
