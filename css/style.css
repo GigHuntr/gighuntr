@@ -16,6 +16,7 @@ p#slogan {
 
 
 
+
 .resultsPage #logo {
 	float: left;
 	max-width:123px;
@@ -197,6 +198,43 @@ div.info-block a {
     text-decoration:none;
 }
 
+#slideOneDownArrow,
+#slideTwoDownArrow,
+#slideThreeUpArrow {
+    display:inline-block;
+    border-radius: 42px;
+    -moz-border-raidus: 42px;
+    -webkit-border-raidus: 42px;
+    width:42px;
+    height:42px;
+    background-color:#DBDBDB;
+    color:#fff !important;
+    text-decoration:none;
+    font-size: 23pt;
+    line-height: 28pt;
+    font-style: normal;
+    margin: auto;
+    float: none;
+}
+
+.nav-wrapper {
+    clear:both;
+    display: block;
+    float:none;
+    width:100%;
+    position:absolute;
+    bottom:2rem;
+    z-index: 0;
+}
+#info1 .nav-wrapper {
+    position:absolute;
+    bottom:5rem !important;
+}
+#slideThreeUpArrow {
+    clear:both;
+    margin: auto;
+}
+
 /* Columns: */
 
 .two-column {
@@ -205,6 +243,12 @@ div.info-block a {
 	padding-left:15%;
 	margin-right:-15%;
 	text-align: left;
+}
+.column-1 {
+    clear:left !important;
+}
+.column-2 {
+    clear:right !important;
 }
 
 
