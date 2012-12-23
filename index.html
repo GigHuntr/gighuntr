@@ -16,19 +16,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 </script><script>utmx('url','A/B');</script>
 <!-- End of Google Analytics Content Experiment code --> 
 
-<script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-37121564-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
   <meta charset="utf-8">
     <meta name="description" content="Find a job the smart way: search multiples job listing sources at the same time.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -64,7 +52,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
     <div id="header">
       <h1>&nbsp;</h1>
         <div id="nav">
-          <a href="#home1" class="nav-button">Home</span></a>
+          <a href="#home1" class="nav-button">Home</a>
           <a href="#about1" class="nav-button">About</a>
           <a href="#info1" class="nav-button">Info</span></a>
         </div>
@@ -82,7 +70,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
         Find jobs using an open source Custom Search from Monster, Dice, Craigslist, GitHub, Reddit, HiringSolved, CareerBuilder, Google Jobs, Freelancer, RecruiterBox and many more.
     </p>
     
-    <div class="nav-wrapper"><a id="slideOneDownArrow" href="#about1" class="nav-button">&#8744;</a></div>
+    <div class="nav-wrapper"><a id="slideOneDownArrow" href="#about1" class="button">&#8744;</a></div>
     
 </div>
     </div>
@@ -96,7 +84,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
         Search multiple job listing sites (Dice, Monster, Craigslist, etc.) in one step. Whether you're a Doctor, Lawyer, System Administrator, or Software Engineer; You'll save time and energy just by finding your next gig with GigHuntr.
       </p>
       
-          <div class="nav-wrapper"><a id="slideTwoDownArrow" href="#info1" class="nav-button">&#8744;</a></div>
+          <div class="nav-wrapper"><a id="slideTwoDownArrow" href="#info1" class="button">&#8744;</a></div>
 
     </div>
 
@@ -133,7 +121,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
       </div>
     </div>
     
-    <div class="nav-wrapper"><a id="slideThreeUpArrow" href="#home1" class="nav-button">&#8743;</a></div>
+    <div class="nav-wrapper"><a id="slideThreeUpArrow" href="#home1" class="button">&#8743;</a></div>
 
     </div>
 
@@ -145,11 +133,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
           easing: 'easeInOutExpo'
         });
       });
-      $(document).ready(function() {
-        $(".gsc-search-button").on("ready", function() {
-            $(".gsc-search-button").attr("value", "Find");
-        });
-      });
+
     </script>
     <script src="js/main.js"></script>
     <!-- Start of Woopra Code -->
@@ -170,5 +154,18 @@ function woopraReady(tracker) {
 })();
 </script>
 <!-- End of Woopra Code -->
-  </body>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37121564-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
 </html>

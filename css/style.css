@@ -142,14 +142,14 @@ img {
 	padding: 10px;
 	padding: 1rem;
 	text-decoration: none;
-	color: #05458F;
+	color: #05458F !important;
 	font-size: 16px;
 	font-size: 1.6rem;
 	font-style: normal;
 }
 
 .current, a.nav-button:hover {
-	color: #021F40;
+	color: white !important;
 }
 
 /*------------------------  SLIDES  */

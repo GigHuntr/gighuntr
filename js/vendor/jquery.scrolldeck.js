@@ -13,6 +13,7 @@
 		
 		var currIndex = 0,
 			buttons,
+            links,
 			slides,
 			scrollpoints = [],
 			sections = [],
@@ -21,7 +22,8 @@
 		
 		var defaults = {
 			buttons: '.nav-button',
-			slides: '.slide',
+			links: '.button',
+            slides: '.slide',
 			duration: 600,
 			easing: 'easeInOutExpo',
 			offset: 0
@@ -37,7 +39,8 @@
 			
 			scrolldeck.settings = $.extend({}, defaults, options);
 			
-			buttons = $(scrolldeck.settings.buttons);
+    		buttons = $(scrolldeck.settings.buttons);
+    		links = $(scrolldeck.settings.links);
 			slides = $(scrolldeck.settings.slides);
 			scrolldeck.controller = $.scrollorama({blocks:slides, offset:scrolldeck.settings.offset});
 			
@@ -109,8 +112,15 @@
 				updateNav();
 			});
 			
-			// Nav button click event
-			buttons.on('click', function(e) {
+    		// Nav button click event
+    		buttons.on('click', function(e) {
+				e.preventDefault();
+				var slide = $($(this).attr('href'));
+				currIndex = slide.index();
+				scrollToSlide(slide);
+			});
+    		// Regular button click event
+    		links.on('click', function(e) {
 				e.preventDefault();
 				var slide = $($(this).attr('href'));
 				currIndex = slide.index();
@@ -150,7 +160,7 @@
 		
 		// PRIVATE FUNCTIONS
 		
-		function updateNav() {
+    	function updateNav() {
 			if (buttons) {
 				buttons.removeClass('current');
 				var currSection = -1;
