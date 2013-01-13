@@ -222,6 +222,8 @@ div.info-block a {
     font-style: normal;
     margin: auto;
     float: none;
+    position:relative;
+    top:-150px;
 }
 
 .nav-wrapper {
