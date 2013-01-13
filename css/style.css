@@ -99,8 +99,15 @@ li {
 	padding: .4rem 0;
 }
 
-img {
+.resultsPage img {
 	width: 100%;
+}
+
+#gitHubForkRibbon img,
+#gitHubForkRibbon {
+	position: fixed !important;
+	top:0;
+	z-index: 100;
 }
 
 /*----------------------------------------  HEADER  */
