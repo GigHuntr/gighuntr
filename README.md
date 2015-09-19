@@ -1,5 +1,6 @@
-gighuntr.github.com
+gighuntr
 ===================
+http://gighuntr.github.io/gighuntr
 
 A tool for finding freelance gigs by searching various job boards using a custom Google search.
 
